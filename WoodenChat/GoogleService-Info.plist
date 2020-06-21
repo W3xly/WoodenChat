@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>784621288472-oavufgp9vf1989g55lagavsn2gfbr0fv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.784621288472-oavufgp9vf1989g55lagavsn2gfbr0fv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCrYF_DrqvgHM5mLEE7VxXv5lNjvd26Wa8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>784621288472</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.podmolik.WoodenChat</string>
+	<key>PROJECT_ID</key>
+	<string>woodenchat-a322b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>woodenchat-a322b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:784621288472:ios:7db53e5c5a833f06f0d76d</string>
+	<key>DATABASE_URL</key>
+	<string>https://woodenchat-a322b.firebaseio.com</string>
+</dict>
+</plist>
