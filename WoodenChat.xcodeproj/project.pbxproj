@@ -20,7 +20,6 @@
 		1000E061249BB51400353CBB /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000E060249BB51400353CBB /* MessageViewModel.swift */; };
 		1081F855249915D8005F6895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081F854249915D8005F6895 /* AppDelegate.swift */; };
 		1081F857249915D8005F6895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081F856249915D8005F6895 /* SceneDelegate.swift */; };
-		1081F85E249915DA005F6895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1081F85D249915DA005F6895 /* Assets.xcassets */; };
 		1081F861249915DA005F6895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1081F85F249915DA005F6895 /* LaunchScreen.storyboard */; };
 		1081F87024991673005F6895 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081F86F24991673005F6895 /* ConversationsController.swift */; };
 		1081F87324991687005F6895 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081F87124991687005F6895 /* Constants.swift */; };
@@ -40,6 +39,7 @@
 		10859FF6249D16A400C7BC59 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859FF5249D16A400C7BC59 /* Conversation.swift */; };
 		10859FF8249D275E00C7BC59 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859FF7249D275E00C7BC59 /* ConversationViewModel.swift */; };
 		1085A007249D4C3B00C7BC59 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085A006249D4C3B00C7BC59 /* ProfileController.swift */; };
+		10B30F02249FAFF900D82EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B30F01249FAFF900D82EA2 /* Assets.xcassets */; };
 		2F0B87EEF808E97ED5DDD737 /* Pods_WoodenChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE7386A2AEB5E599731CB6F /* Pods_WoodenChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +58,6 @@
 		1081F851249915D8005F6895 /* WoodenChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1081F854249915D8005F6895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1081F856249915D8005F6895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1081F85D249915DA005F6895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1081F860249915DA005F6895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1081F862249915DA005F6895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1081F86F24991673005F6895 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		10859FF5249D16A400C7BC59 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		10859FF7249D275E00C7BC59 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
 		1085A006249D4C3B00C7BC59 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		10B30F01249FAFF900D82EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1229DBDAAD6182E4BAA0C942 /* Pods-WoodenChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodenChat.debug.xcconfig"; path = "Target Support Files/Pods-WoodenChat/Pods-WoodenChat.debug.xcconfig"; sourceTree = "<group>"; };
 		5DE7386A2AEB5E599731CB6F /* Pods_WoodenChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoodenChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C1F022BD9A414F4243C62E /* Pods-WoodenChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodenChat.release.xcconfig"; path = "Target Support Files/Pods-WoodenChat/Pods-WoodenChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				1081F86B2499160B005F6895 /* Controller */,
 				1081F86C2499161B005F6895 /* API */,
 				1081F86D24991623005F6895 /* Extensions */,
-				1081F85D249915DA005F6895 /* Assets.xcassets */,
+				10B30F01249FAFF900D82EA2 /* Assets.xcassets */,
 				1081F85F249915DA005F6895 /* LaunchScreen.storyboard */,
 				1081F891249A55F8005F6895 /* GoogleService-Info.plist */,
 				1081F862249915DA005F6895 /* Info.plist */,
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1081F861249915DA005F6895 /* LaunchScreen.storyboard in Resources */,
-				1081F85E249915DA005F6895 /* Assets.xcassets in Resources */,
+				10B30F02249FAFF900D82EA2 /* Assets.xcassets in Resources */,
 				1081F892249A55F8005F6895 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
